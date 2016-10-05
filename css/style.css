@@ -1,0 +1,68 @@
+#go {
+  width: 12em;
+  padding: 1em;
+  position: fixed;
+  bottom: 3em;
+  left: 50%;
+  right: 50%;
+  border-radius: 5px;
+  background-color: #4DB6AC;
+  color: black;
+  font-size: 125%;
+  text-align: center;
+  font-family: sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#go:hover {
+  background-color: #26A69A;
+}
+
+#go:active {
+  background-color: #009688;
+  color: white;
+}
+
+@keyframes left {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+@keyframes right {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 100%;
+  }
+}
+@keyframes leftright {
+  50% {
+    left: 100%;
+  }
+}
+.wrap {
+  overflow: hidden;
+  background: black;
+  width: 80%;
+  width: 100%;
+  margin: 0;
+  height: 1250px;
+  border: thin solid #c9c9c9;
+}
+.wrap .box {
+  position: relative;
+  top: 20%;
+  margin-top: -20px;
+  left: -10%;
+  margin-left: -40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background: white;
+  animation: left 24s linear 1;
+}

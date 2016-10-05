@@ -1,0 +1,15 @@
+{
+  "name": "moveleft",
+  "version": "1.0.0",
+  "description": "A Pen created at CodePen.io. You can find this one at http://codepen.io/davidascher/pen/LRkrEp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.6.0",
+    "eslint-plugin-react": "^6.3.0"
+  }
+}
